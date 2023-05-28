@@ -1,3 +1,5 @@
+-- A practice project for Josh W. Comeau's Joy of React course --
+
 # Word Game
 
 ## Joy of React, Project I
