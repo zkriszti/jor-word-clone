@@ -161,6 +161,15 @@ h1 {
   outline-offset: 4px;
 }
 
+.guess-input-wrapper input:disabled {
+  border: 2px solid var(--color-gray-900);
+  cursor: not-allowed;
+}
+
+.guess-input-wrapper:has(input:disabled) label {
+  color: var(--color-gray-900);
+}
+
 .banner {
   position: fixed;
   left: 0;
@@ -230,3 +239,17 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+.status-banner {
+  display: inline-block;
+  color: var(--color-gray-900);
+}
+
+.status-banner-won {
+  background-color: var(--color-success);
+}
+
+.status-banner-lost {
+  background-color: var(--color-error);
+}
+
